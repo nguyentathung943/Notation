@@ -45,8 +45,7 @@ public class ShowNotes extends AppCompatActivity{
         tag = findViewById(R.id.tags);
 
         mEditor = findViewById(R.id.editor);
-        mEditor.setEditorHeight(200);
-        mEditor.setEditorFontSize(22);
+        mEditor.setEditorFontSize(25);
         mEditor.setEditorFontColor(Color.BLACK);
         mEditor.setPadding(10, 10, 10, 10);
         mEditor.setPlaceholder("Insert text here...");

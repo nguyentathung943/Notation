@@ -22,7 +22,7 @@
                 android:text="Title ➽"
                 android:textColor="#000"
                 android:textStyle="bold"
-                android:textSize="20sp"
+                android:textSize="30sp"
                 android:layout_margin="5dp"/>
             <EditText
                 android:id="@+id/note_title"
@@ -31,7 +31,7 @@
                 android:layout_margin="5dp"
                 android:text="Title"
                 android:textColor="#ffffb3"
-                android:textSize="18sp" />
+                android:textSize="30sp" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -44,7 +44,7 @@
                 android:layout_margin="5dp"
                 android:text="🕑 Last modified"
                 android:textColor="#000"
-                android:textSize="20sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
             <EditText
@@ -53,7 +53,7 @@
                 android:layout_height="wrap_content"
                 android:text="Time"
                 android:textColor="#ffffb3"
-                android:textSize="18sp"
+                android:textSize="30sp"
                 android:layout_margin="5dp"/>
         </LinearLayout>
         <LinearLayout
@@ -66,7 +66,7 @@
                 android:text="🏷 Tags"
                 android:textColor="#000"
                 android:textStyle="bold"
-                android:textSize="20sp"
+                android:textSize="30sp"
                 android:layout_margin="5dp"/>
             <EditText
                 android:id="@+id/tags"
@@ -74,48 +74,54 @@
                 android:layout_height="wrap_content"
                 android:text="Tag"
                 android:textColor="#ffffb3"
-                android:textSize="18sp"
+                android:textSize="30sp"
                 android:layout_margin="5dp"/>
         </LinearLayout>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:text="Description ✍"
             android:textColor="#000"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:layout_margin="5dp"/>
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
         <LinearLayout
             android:id="@+id/btns"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <Button
                 android:id="@+id/action_align_left"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="Align left"/>
+                android:text="Align left"
+                android:textSize="25dp" />
+
             <Button
                 android:id="@+id/action_align_center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="25dp"
                 android:layout_marginRight="10dp"
                 android:text="Align center"/>
             <Button
                 android:id="@+id/action_align_right"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="25dp"
                 android:text="Align right"/>
         </LinearLayout>
         <jp.wasabeef.richeditor.RichEditor
             android:id="@+id/editor"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="200dp"
             android:inputType="textMultiLine"
             android:text="Description"
             android:scrollbars="vertical"/>
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -123,24 +129,28 @@
             android:layout_margin="10dp">
             <Button
                 android:id="@+id/btn_back"
+                android:textSize="30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="BACK"
                 android:layout_marginRight="5dp"/>
             <Button
                 android:id="@+id/btn_edit"
+                android:textSize="30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="EDIT"
                 android:layout_marginRight="5dp"/>
             <Button
                 android:id="@+id/btn_save"
+                android:textSize="30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="SAVE"
                 android:layout_marginRight="5dp"/>
             <Button
                 android:id="@+id/btn_delete"
+                android:textSize="30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="DELETE"

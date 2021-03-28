@@ -170,7 +170,7 @@ public class ListNotes extends AppCompatActivity{
             btn_layout.setOrientation(LinearLayout.HORIZONTAL);
             RichEditor mEditor = new RichEditor(this);
             mEditor.setEditorHeight(60);
-            mEditor.setEditorFontSize(22);
+            mEditor.setEditorFontSize(25);
             mEditor.setEditorFontColor(Color.BLACK);
             mEditor.setPadding(10, 10, 10, 10);
             mEditor.setPlaceholder("Insert text here...");
